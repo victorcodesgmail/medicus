@@ -65,7 +65,6 @@ var UserDAO = /*#__PURE__*/function () {
 
               case 9:
                 _context.prev = 9;
-                Medicus-main
                 _context.t0 = _context["catch"](2);
                 console.error("Failed to connect to DB in UserDAO: ".concat(_context.t0));
 
@@ -114,8 +113,7 @@ var UserDAO = /*#__PURE__*/function () {
             }
           }
         }, _callee2, this, [[1, 8]]);
-      }));Medicus-main
-
+      }));
 
       function getUsers(_x2) {
         return _getUsers.apply(this, arguments);
@@ -156,7 +154,6 @@ var UserDAO = /*#__PURE__*/function () {
                 _context3.prev = 8;
                 _context3.t0 = _context3["catch"](1);
                 console.error("Failed to search users based on query within DB. ".concat(_context3.t0));
-                Medicus-main
                 return _context3.abrupt("return", []);
 
               case 12:

@@ -14,7 +14,7 @@ export default function App() {
     return (
     
         <Router>
-             <HomeApp {...props} />
+            
              <Suspense fallback={<Loader isLoading={true} />}>
                 <Switch>
                     <Route exact path="/auth" render={(props) => {
